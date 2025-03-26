@@ -1,101 +1,85 @@
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="font-[family-name:var(--font-geist-sans)]">
+      {/* Hero Section */}
+      <section className="bg-gray-200 h-[80vh] flex items-center">
+        <div className="container mx-auto px-6 md:px-10">
+          <h1 className="text-5xl font-bold mb-8">
+            Global Shapers Bengaluru II Hub
+          </h1>
+          <p className="text-xl max-w-2xl mb-10">
+            A network of young people driving dialogue, action and change.
+          </p>
+          <Button asChild className="bg-blue-800 hover:bg-blue-700 rounded-full px-8 py-6 h-auto">
+            <Link href="/projects">
+              View Our Projects
+            </Link>
+          </Button>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Impact Areas Section */}
+      <section className="bg-blue-800 text-white py-16">
+        <div className="container mx-auto px-6 md:px-10">
+          <h2 className="text-3xl mb-12 border-b border-blue-700 pb-2">Impact Areas</h2>
+          <div className="flex justify-between max-w-7xl items-center mx-auto">
+            {/* First card */}
+            <div className="bg-gray-300 h-[216px] w-[170px]"></div>
+            
+            {/* Dash */}
+            <div className="w-[40px] flex items-center justify-center">
+              <div className="h-[5px] w-full bg-gray-300"></div>
+            </div>
+            
+            {/* Remaining cards */}
+            <div className="flex gap-6">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <div key={i} className="bg-gray-300 h-[216px] w-[170px]"></div>
+              ))}
+            </div>
+          </div>
+          <div className="text-right mt-8">
+            <Link href="/projects" className="text-white hover:underline flex justify-end items-center">
+              Projects <ArrowRight className="ml-1 h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Curatorship Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-6 md:px-10">
+          <h2 className="text-3xl mb-12 border-b pb-2">Meet the Curatorship</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
+            {Array.from({ length: 3 }).map((_, i) => (
+              <div key={i} className="flex flex-col items-center">
+                <div className="bg-gray-300 h-[477px] w-[350px] mb-4"></div>
+                <div className="flex items-center justify-between w-full">
+                 <div className="flex flex-col">
+                  <h3 className="text-xl font-semibold">Curator Name</h3>
+                  <p className="text-gray-600">Designation</p>
+                 </div>
+                  <Link href="#" aria-label="LinkedIn" className="text-gray-400 mt-2 hover:text-blue-600">
+                  <FaLinkedin size={30} />
+                </Link>
+                </div>
+                
+              </div>
+            ))}
+          </div>
+          <div className="text-right mt-8">
+            <Link href="/members" className="text-blue-800 hover:underline flex justify-end items-center">
+              All Members <ArrowRight className="ml-1 h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

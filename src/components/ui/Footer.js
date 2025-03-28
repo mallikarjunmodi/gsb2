@@ -14,7 +14,7 @@ export default function Footer() {
             <p className="max-w-md text-white/90 text-sm sm:text-base mb-4">
               As part of the Global Shapers Community, an initiative of the World Economic Forum, 
               we bring together young changemakers committed to creating real impact in our city and beyond. 
-              Together, we're shaping a better, more sustainable future.
+              Together, we&apos;re shaping a better, more sustainable future.
             </p>
             <div className="flex flex-col space-y-2 text-white/90 text-sm sm:text-base">
               <div className="flex items-center">

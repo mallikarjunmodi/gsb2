@@ -17,6 +17,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "Global Shapers Bengaluru",
   description: "Global Shapers Bengaluru II Hub - Official Website",
+  keywords: "Global Shapers, Bengaluru, World Economic Forum, Changemakers, Social Impact",
 };
 
 export default function RootLayout({ children }) {
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
         <Navigation />
-        <main className="flex-grow">
+        <main className="flex-grow flex-shrink-0">
           {children}
         </main>
         <Footer />

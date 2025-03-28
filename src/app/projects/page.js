@@ -9,7 +9,7 @@ export default function ProjectsPage() {
     {
       id: 1,
       title: "Building a Library, Inspiring Young Minds",
-      description: "Our latest initiative, \"Shaping Readers, Shaping Futures,\" is dedicated to building a library and creating a vibrant reading corner within a school that lacks adequate learning resources. Through book collection drives, community donations, and strategic partnerships, we aim to provide students with engaging books that spark curiosity, creativity, and a lifelong love for reading. This initiative is not just about books—it's about empowering young minds, fostering education, and bridging the literacy gap.",
+      description: "Our latest initiative, \"Shaping Readers, Shaping Futures,\" is dedicated to building a library and creating a vibrant reading corner within a school that lacks adequate learning resources. Through book collection drives, community donations, and strategic partnerships, we aim to provide students with engaging books that spark curiosity, creativity, and a lifelong love for reading. This initiative is not just about books—it&apos;s about empowering young minds, fostering education, and bridging the literacy gap.",
       supportText: "How You Can Help: We are seeking partners, donors, and volunteers to help bring this vision to life.",
       icons: ["book", "helping"],
       image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2070&auto=format&fit=crop",
@@ -17,8 +17,8 @@ export default function ProjectsPage() {
     },
     {
       id: 2,
-      title: "JeevikaLINK: Bridging the Gaps in Women's Economic Empowerment",
-      description: "Empowering women economically is one of the largest ongoing efforts in the social sector, yet most initiatives operate in silos, limiting their impact, scalability, and sustainability. The lack of visibility, collaboration, and resource-sharing hinders their potential to create long-term change. To address this, we are building a digital-first platform that connects non-profits, women-led livelihood initiatives, government agencies, corporates, social enterprises, donors, researchers, and volunteers—all working toward women's economic empowerment in India.",
+      title: "JeevikaLINK: Bridging the Gaps in Women&apos;s Economic Empowerment",
+      description: "Empowering women economically is one of the largest ongoing efforts in the social sector, yet most initiatives operate in silos, limiting their impact, scalability, and sustainability. The lack of visibility, collaboration, and resource-sharing hinders their potential to create long-term change. To address this, we are building a digital-first platform that connects non-profits, women-led livelihood initiatives, government agencies, corporates, social enterprises, donors, researchers, and volunteers—all working toward women&apos;s economic empowerment in India.",
       supportText: "What We Offer: A comprehensive registry of organizations, resources, and funding opportunities; A hub for collaboration, knowledge exchange, and capacity building; A space for impact storytelling and sharing best practices; A bridge between policy, technology, and grassroots action.",
       icons: ["female", "users"],
       image: "https://images.unsplash.com/photo-1573164574230-db1d5e960238?q=80&w=2069&auto=format&fit=crop",

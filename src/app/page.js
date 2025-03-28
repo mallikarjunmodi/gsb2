@@ -70,7 +70,7 @@ export default function Home() {
               Welcome to Global Shapers Bengaluru 2, a dynamic hub of young changemakers committed to creating real impact in our city and beyond. As part of the Global Shapers Community, an initiative of the World Economic Forum, we bring together passionate individuals from diverse backgrounds—entrepreneurs, social innovators, and professionals—driven by a shared mission to build a better, more sustainable future.
             </p>
             <p className="text-base md:text-lg">
-              At Bengaluru 2, we focus on climate action, social equity, digital empowerment, and urban transformation, working on innovative projects that address the city's most pressing challenges. Through collaboration, knowledge-sharing, and strategic partnerships, we drive meaningful change at the grassroots level.
+              At Bengaluru 2, we focus on climate action, social equity, digital empowerment, and urban transformation, working on innovative projects that address the city&apos;s most pressing challenges. Through collaboration, knowledge-sharing, and strategic partnerships, we drive meaningful change at the grassroots level.
             </p>
           </div>
         </div>

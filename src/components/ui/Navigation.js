@@ -34,6 +34,9 @@ export default function Navigation() {
         <Link href="/projects" className="text-slate-800 hover:text-blue-700 transition-colors">
           Projects
         </Link>
+        <Link href="/events" className="text-slate-800 hover:text-blue-700 transition-colors">
+          Events
+        </Link>
         <Link href="/members" className="text-slate-800 hover:text-blue-700 transition-colors">
           Members
         </Link>
@@ -43,7 +46,7 @@ export default function Navigation() {
       </div>
 
       {/* Mobile menu */}
-      <div className={`absolute top-full left-0 right-0 bg-white border-b md:hidden ${isOpen ? 'block' : 'hidden'}`}>
+      <div className={`absolute z-40 top-full left-0 right-0 bg-white border-b md:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="flex flex-col space-y-4 p-6">
           <Link 
             href="/projects" 
@@ -51,6 +54,13 @@ export default function Navigation() {
             onClick={() => setIsOpen(false)}
           >
             Projects
+          </Link>
+          <Link 
+            href="/events" 
+            className="text-slate-800 hover:text-blue-700 transition-colors"
+            onClick={() => setIsOpen(false)}
+          >
+            Events
           </Link>
           <Link 
             href="/members" 

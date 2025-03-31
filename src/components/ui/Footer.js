@@ -46,7 +46,7 @@ export default function Footer() {
         
         <div className="mt-8 sm:mt-12 pt-8 border-t border-blue-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex flex-col md:flex-row md:space-x-6 mb-4 md:mb-0">
+            <div className="flex gap-4 md:flex-row md:space-x-6 mb-4 md:mb-0">
               <Link href="/" className="text-white/90 hover:text-white mb-2 md:mb-0">Home</Link>
               <Link href="/projects" className="text-white/90 hover:text-white mb-2 md:mb-0">Projects</Link>
               <Link href="/members" className="text-white/90 hover:text-white mb-2 md:mb-0">Members</Link>

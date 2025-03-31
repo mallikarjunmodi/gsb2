@@ -7,9 +7,13 @@ export async function POST(request) {
     const body = await request.json();
     const { name, email, phone, message } = body;
 
+    // Split the TO_EMAIL string into an array of email addresses
+    const toEmails = process.env.RESEND_TO_EMAIL.split(',').map(email => email.trim());
+
     const data = await resend.emails.send({
       from: `Global Shapers Bengaluru <contact@${process.env.RESEND_FROM_EMAIL}>`,
-      to: process.env.RESEND_TO_EMAIL,
+      to: toEmails,
+      reply_to: email, // Set reply-to as the sender's email
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <!DOCTYPE html>

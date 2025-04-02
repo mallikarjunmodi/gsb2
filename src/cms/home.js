@@ -32,21 +32,21 @@ export const homeContent = {
     title: "Meet the Curatorship",
     curators: [
       {
-        name: "Jane Doe",
-        position: "Lead Curator",
-        image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1974&auto=format&fit=crop",
+        name: "Sneha Kulukuru",
+        position: "Curator",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQG5YxdTHFMZzA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724163873676?e=1749081600&v=beta&t=mcQCdaqBaqc8mfRox-TRFPGD0slytdO0yXUMwZYU9Rw",
         linkedin: "#"
       },
       {
-        name: "John Smith",
-        position: "Co-Curator",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
+        name: "Nishit Goyal",
+        position: "Vice Curator",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQFBaZULOoNK8Q/profile-displayphoto-shrink_800_800/B56ZRg0v4cG8Ac-/0/1736791228929?e=1749081600&v=beta&t=nsGMp_bS71dQp63hevQ1KOwBWQR5QnK_h1elPTzJloc",
         linkedin: "#"
       },
       {
-        name: "Sarah Johnson",
-        position: "Program Director",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop",
+        name: "Nimisha Thomas",
+        position: "Incoming Curator",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQEXHxURJ7wQ9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1705379996952?e=1749081600&v=beta&t=B7rykI1IsKtX6Z-vp1uOsilfVcQLfb7LUEj2IUMwTL4 ",
         linkedin: "#"
       }
     ],

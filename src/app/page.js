@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center">
         <Image 
-          src="/hom.jpg"
+          src="/hom.jpeg"
           alt=""
           fill
           priority

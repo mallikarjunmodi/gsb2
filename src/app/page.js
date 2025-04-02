@@ -11,8 +11,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center">
         <Image 
-          src={homeContent.hero.image}
-          alt={homeContent.hero.imageAlt}
+          src="/homepage.jpg"
+          alt=""
           fill
           priority
           className="object-cover brightness-50"

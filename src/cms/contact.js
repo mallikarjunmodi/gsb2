@@ -7,7 +7,7 @@ export const contactContent = {
   contactInfo: {
     email: "globalshapersblr2@gmail.com",
     // phone: "+91 98765 43210",
-    address: "123 Innovation Street, Tech Park, Bangalore - 560001",
+    address: "Bengaluru, India",
     socialMedia: {
       linkedin: "https://linkedin.com/company/global-shapers-bangalore",
       twitter: "https://twitter.com/globalshapersblr",

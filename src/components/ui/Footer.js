@@ -24,7 +24,7 @@ export default function Footer() {
               <div className="flex items-center">
                 <IoMailOutline className="mr-2 h-5 w-5" />
                 <Link href="mailto:contact@globalshapersbengaluru.org" className="hover:underline">
-                  contact@globalshapersbengaluru.org
+                globalshapersblr2@gmail.com
                 </Link>
               </div>
             </div>

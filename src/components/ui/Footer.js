@@ -37,7 +37,7 @@ export default function Footer() {
               Join our hub of diverse changemakers and help shape a better future for Bengaluru.
             </p>
             <Button asChild variant="outline" className="bg-white text-blue-800 px-4 sm:px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition-colors border-none">
-              <Link href="/contact" className="flex items-center">
+              <Link href="https://forms.gle/m6joNWdCcSsn2NW66" className="flex items-center">
                 Apply Now <ArrowRight className="ml-1 h-4 w-4 sm:h-5 sm:w-5" />
               </Link>
             </Button>

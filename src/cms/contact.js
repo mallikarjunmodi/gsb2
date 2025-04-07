@@ -9,9 +9,9 @@ export const contactContent = {
     // phone: "+91 98765 43210",
     address: "Bengaluru, India",
     socialMedia: {
-      linkedin: "https://linkedin.com/company/global-shapers-bangalore",
-      twitter: "https://twitter.com/globalshapersblr",
-      instagram: "https://instagram.com/globalshapersbangalore"
+      linkedin: "https://www.linkedin.com/company/global-shapers-community/",
+      twitter: "https://x.com/GlobalShapers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      instagram: "https://www.instagram.com/globalshapersbangalorehub2/"
     }
   },
   form: {

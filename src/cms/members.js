@@ -21,7 +21,7 @@ export const members = [
     id: 3,
     name: "Nimisha Thomas",
     position: "Incoming Curator",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQEXHxURJ7wQ9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1705379996952?e=1749081600&v=beta&t=B7rykI1IsKtX6Z-vp1uOsilfVcQLfb7LUEj2IUMwTL4 ",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQEqTfcs_-eMpQ/profile-displayphoto-shrink_800_800/B56ZYRRRzrHEAg-/0/1744046464728?e=1749686400&v=beta&t=gvVbt3py5fufDAVL7bA6h-Nio-YgZ87uwmyralFL1Ds ",
     linkedin: "https://www.linkedin.com/in/nimishathomas8/",
     bio: "Founder @ Advaita Holistic Learning",
     expertise: ["Digital Skills", "Technology", "Education"]
